@@ -1,0 +1,827 @@
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/ff0997/00000000000000003b9ad1af/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9) format("woff2");
+    font-weight:900;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/03034e/00000000000000003b9ad1b1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7) format("woff2");
+    font-weight:700;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/6b4e48/00000000000000003b9ad1b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8) format("woff2");
+    font-weight:800;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/b18774/00000000000000003b9ad1bd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1) format("woff2");
+    font-weight:100;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/921f74/00000000000000003b9ad1bb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6) format("woff2");
+    font-weight:600;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4) format("woff2");
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:proxima-nova;
+    src:url(https://fonts.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3) format("woff2");
+    font-weight:300;
+    font-style:normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:300,400,600,700,800,900|Nunito:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+/********************************************************
+ * Geral
+ */
+
+.form-control{
+	font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+	font-size: 15px !important;
+	outline: none !important;
+}
+
+.categorias_modelos .form-control {
+    padding: 4px 6px;
+    height: auto;
+    font-size: 14px !important;
+    margin-bottom: 15px;
+}
+
+.categorias_modelos .form-control:last-child {
+    margin-bottom: 0px;
+}
+
+.categorias_modelos label {
+    margin-bottom: 2px;
+}
+
+.modal-body .alert {font-family: 'proxima-nova', Roboto, sans-serif;font-size: 15px;padding: 10px;}
+
+.modal-body .alert b {
+    font-weight: 600;
+}
+
+.tab-content .box-filtro .select2-container {
+    /* margin-right: -5px !important; */
+    float: inherit;
+    width: 400px !important;
+}
+
+.tab-content .box-filtro .select2-container .select2-input {font-family: 'proxima-nova', Roboto, sans-serif !important;font-size: 13px;padding: 6px;}
+
+.form-control:focus {
+    border-color: #45be53;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(106, 163, 0, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(106, 163, 0, 0.5);
+}
+
+.project-name a img{
+	max-height: 65px;
+}
+
+.header .project-name{display: inline-block;}
+
+.nav-content .menu>ul>li a{
+	font-family: 'proxima-nova', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10px 8px 8px;
+}
+
+.nav-content .menu>ul>li>ul li a {
+    text-transform: inherit;
+}
+
+.nav-content .menu>ul>li a.ico-home:before {
+.nav-content .menu>ul>li a.ico-home: before;line-height: 35px;}
+
+.nav-content .menu>ul>li>ul li a {
+    padding: 5px 10px;
+}
+
+.nav-content .menu>ul>li>ul{
+	top: 35px;
+}
+
+.sidebox-title{
+	font-family: 'proxima-nova', Arial, sans-serif;
+	letter-spacing: -1.5px;
+}
+
+.sidebox .ico-arrow-right {
+    font-family: 'proxima-nova', Arial, sans-serif;
+}
+
+.modal-header{padding: 10px 15px;}
+
+.modal-header .modal-title{
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: -0.3px;
+}
+
+/********************************************************
+ * Login
+ */
+
+.parent-login .ls-login-logo{background: none;margin-bottom: 30px;}
+
+.parent-login .ls-login-logo img {
+    max-height: 41px;
+    margin: 0 auto;
+}
+
+.box-login a{
+	font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+	font-size: 14px !important;
+	color: #6aa300 !important;
+}
+
+.parent-login .ls-login-password{
+	margin-bottom: 5px;
+}
+
+.parent-login .btn-lg{
+	background-color: #6aa300;
+	border-color: #6aa300;
+	font-size: 18px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	font-family: 'proxima-nova', Montserrat, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.box-login p, .box-login .alert{
+	font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+	font-size: 14.7px !important;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+/**
+* Dashboard
+*/
+
+.shortcut-box {
+    /* background-color: #f7f7f7; */
+    text-align: center;
+    /* padding: 30px 0 45px; */
+    position: relative;
+    top: -20px;
+    z-index: 0;
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+}
+
+.shortcuts .atalho {
+    background: #fff;
+    /* border: 1px solid #e8e8e8; */
+    padding: 15px;
+    min-height: 315px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.shortcuts .atalho a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #519700;
+}
+
+.shortcuts .atalho a:hover {
+    color: #000;
+}
+
+.shortcuts .atalho b {font-family: 'proxima-nova', Arial, sans-serif;font-size: 14px;font-weight: 500;text-transform: uppercase;text-align: center;margin: 0 auto;}
+
+.shortcuts .atalho p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main {
+    /* background-color: #f7f7f7; */
+}
+
+.pathWay {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.templates {
+    margin-top: 15px;
+}
+
+.templates .alert {font-family: 'proxima-nova', Roboto, Arial, sans-serif;padding: 10px;}
+
+.templates b {font-family: 'proxima-nova', Roboto, Arial, sans-serif;font-weight: 500;color: #333;display: block;margin-bottom: 10px;}
+
+.templates .thumbnail {
+    max-height: 262px;
+    overflow: hidden;
+}
+
+.categorias_modelos {
+    background: #eee;
+    border: 1px solid #e8e8e8;
+    padding: 15px;
+    /* margin-top: 15px; */
+}
+
+.categorias_modelos:last-child {}
+
+.categorias_modelos b {
+    display: block;
+    /* text-transform: uppercase; */
+    font-family: 'proxima-nova', Montserrat, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #008860;
+}
+
+.categorias_modelos label {
+    display: block;
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.categorias_modelos .divider {
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.categorias_modelos label input {
+    float: left;
+    margin-top: 1px;
+    margin-right: 7px;
+}
+
+.pathWay ol, .pathWay ul {
+    margin: 0;
+    padding: 0;
+}
+.pathWay.steps3 li {
+    width: 33.2%;
+}
+
+.pathWay.steps2 li {
+    width: 49.9%;
+}
+
+.pathWay.steps4 li {
+    width: 24.9%;
+}
+
+.pathWay.steps1 li {
+    width: 100%;
+}
+
+.pathWay .stepOk {
+    background-color: #777777;
+}
+
+.pathWay .stepOk:hover {
+    background-color: #8ecf00;
+}
+
+.pathWay .stepOk:hover b {
+    color: #8ecf00;
+}
+
+.pathWay .stepOk li:hover {
+    background: #6aa300;
+}
+
+.pathWay li, .pathWay li.disabled, .pathWay li.disable:hover {
+    margin-right: 1px;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    background: url(../images/dotsPathWays.png) repeat-x bottom left;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.colorGreen .pathWay li.active a, .colorGreen .pathWay li:hover a {
+    background-color: #eaf4d8;
+}
+
+.colorGreen .progress .bar, .colorGreen .pathWay li.active, .colorGreen .pathWay li:hover, .colorGreen #menuPrincipal .btMenu a:hover, .colorGreen #menuPrincipal .btMenu a:active, .colorGreen .notification header:before, .colorGreen .switch-btn input:checked+label span:after {
+    background-color: #94c83c;
+}
+
+.pathWay .stepOk a, .pathWay .stepOk b {
+    color: #666;
+}
+.pathWay li:first-child a {
+    border-left: none;
+}
+
+.bg-shortcut-workaround {
+    /* background: none; */
+    background-color: #EBEEF2;
+}
+
+.pathWay a, .pathWay li.disable:hover a {
+    border-left: 1px dotted #CCC;
+    border-bottom: 2px solid white;
+    padding: 4px 0 0 5px;
+    margin-bottom: 5px;
+    color: #B0B0B0;
+    width: 100%;
+    display: inline-block;
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    font-size: 20px;
+    background: #fff;
+    font-weight: 700;
+}
+
+.pathWay li.active a {
+    color: #6aa300;
+}
+
+.pathWay li.active {
+    background: #8ecf00;
+}
+
+.pathWay li.active b {
+    color: #8ecf00;
+}
+
+.pathWay .stepOk a, .pathWay .stepOk b {
+    color: #777;
+}
+
+.pathWay li b, .pathWay li.disable:hover b {
+    color: #b8b8b8;
+    letter-spacing: -3px;
+    margin-right: 8px;
+    float: left;
+    font: bold 50px 'proxima-nova',Roboto,Arial,sans-serif;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.pathWay span {
+    display: block;
+    padding: 10px 0 0 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.pathWay li.disable, .pathWay li.disable a {
+    cursor: default;
+}
+
+.header-content {
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif !important;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.header-content .bts-header .btn {
+    margin-left: 5px;
+}
+
+.header-content .select_lista {
+    float: right;
+    display: inline-block;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+}
+
+.header-content .select_lista label {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+label {font-family: 'proxima-nova', Roboto, sans-serif;font-weight: 600;}
+
+.modal-footer .btn {font-family: 'proxima-nova', Roboto, sans-serif;font-size: 14px;font-weight: 600;padding: 5px 10px;}
+
+.input-group-btn>.btn {
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.modal-footer {
+    padding: 10px 15px;
+}
+
+.modal-body label {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.modal-body label p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 0px;
+}
+
+.modal-body label i {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checkbox {
+    padding-right: 15px !important;
+}
+
+.filtro-contatos .btn {
+    padding: 2px 5px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.select2-results {font-family: 'proxima-nova', Roboto, sans-serif;}
+
+.select2 {font-family: 'proxima-nova', Roboto, sans-serif;}
+
+.box-filtro {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tab-content .well.box-filtro {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    display: none;
+}
+
+.tab-content .table {
+    margin-top: 15px;
+}
+
+.tab-content .box-filtro .d-inline-block {
+    margin-top: 7px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.tab-content .box-filtro .input-group {
+    /* float: right; */
+    /* display: flex; */
+    margin-left: 8px;
+}
+
+.tab-content .overlay {
+    display:none;
+    position: absolute;
+    height: 52px;
+    background-color: white;
+    /* top: 50px; */
+    /* left: 50px; */
+    padding: 10px;
+    opacity: 0.5;
+    z-index: 1;
+    float: left;
+    width: 91%;
+}
+
+.tab-content .box-filtro .select2-container.select2-container-multi .select2-choices .select2-search-choice{
+    font-size: 13px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+}
+
+.tab-content .box-filtro.disabled .overlay:before {/* content: " "; */background: #c00;position: relative;width: 102%;height: 65px;z-index: 2;display: block;left: -10px;top: -10px;}
+
+.tab-content .box-filtro .actions {
+    float: right;
+}
+
+.tab-content .box-filtro .actions .btn {
+    float: right;
+    margin-left: 10px;
+}
+
+.tab-content .box-filtro .actions .input-group-btn .btn {
+    margin-left: -2px;
+}
+
+.tab-content .box-filtro .actions .btn, .tab-content .box-filtro .actions .btn-group .btn {
+    padding: 6px 8px 6px 2px;
+}
+
+.listas .n_contatos {
+    background: #eeffc8;
+    padding: 11px 10px 4px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    text-align: center;
+    color: #3c5d00;
+}
+
+.listas {
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.listas:hover {
+    background: #f7f7f7;
+}
+
+.listas .n_contatos b {
+    font-size: 24px;
+}
+
+.listas .n_contatos p {
+    font-size: 16px;
+}
+
+.listas span {
+    padding: 3px 8px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.listas span:last-child {
+    border: 0px;
+}
+
+.listas .nome b {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.listas .nome, .listas .linha {
+    margin-top: 9px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+}
+
+.listas .linha {
+    border-bottom: 0px;
+}
+
+.listas .nome .btn-link, .listas .linha .btn-link {
+    color: #6aa300;
+    font-size: 14px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+}
+
+.listas .nome .btn-link:hover, .listas .linha .btn-link:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+a.excluir {
+    color: #c00 !important;
+}
+
+.box-filtro .btn {
+    padding: 5px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+}
+
+.box-filtro .input-group-btn .btn {
+    padding: 6px 10px;
+}
+
+.box-filtro .buscar {
+    float: right;
+    width: 350px;
+}
+
+.box-filtro .addLista {
+    float: right;
+    width: 468px;
+}
+
+.resumo_tabela {font-family: 'proxima-nova', Roboto, sans-serif;font-size: 15px;padding: 10px 0;margin-top: 5px;display: block !important;margin-bottom: 0;border: 0px;background: none;}
+
+.resumo_tabela .d-inline-block {
+    float: right !important;
+}
+
+.table > thead > tr > th {font-family: 'poxima-nova', Roboto, sans-serif;font-size: 14px;font-weight: 500;padding: 5px 9px;}
+
+.table thead tr th:first-child {
+    width: 25px;
+}
+
+.table > tbody > tr > td {font-family: 'poxima-nova', Roboto, sans-serif;font-size: 14px;padding: 5px 9px;}
+
+.table > tbody > tr > td .btn {
+    color: #6aa300;
+    padding: 0;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+}
+
+.table > tbody > tr > td .btn:hover {
+    color: #000;
+}
+
+.box-filtro .buscar .input-group-addon {
+    padding: 6px;
+}
+
+.box-stats #grafico {
+    margin-bottom: 25px;
+}
+
+.box-recentes .campanha {
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    background-color: white;
+    position: relative;
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+    padding: 10px 15px;
+}
+
+.box-recentes .campanha .title-4 {color: #8ecf00;font-size: 19px;}
+
+.box-recentes .campanha .title-4 a {
+    color: #ccc;
+}
+
+.box-recentes .campanha .title-4 a:hover {
+    color: #428bca;
+}
+
+.ls-collapse .panel-heading .panel-title i {
+    color: #ccc;
+}
+
+.box-recentes .campanha p {
+    font-family: 'proxima-nova', Arial, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.box-recentes .campanha .label {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+.label-success {
+    background-color: #67c767;
+}
+
+.label-warning {
+    background-color: #ffe9aa;
+    color: #bd6b00;
+}
+
+.label-default {
+    background-color: #c5c5c5;
+}
+
+.box-recentes .campanha p b, .box-recentes .campanha p a {
+    /* font-size: 15px; */
+    font-weight: 600;
+    color: #555;
+}
+
+.ls-collapse .panel-heading .status {
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ls-collapse .panel-heading .status i {
+    margin-right: -4px;
+}
+
+.status.warning {
+    color: #deba00;
+}
+
+.header-content .btn-group {
+    margin-top: 10px;
+    display: flex;
+}
+
+.header-content .btn-group .btn {
+    padding: 2px 8px;
+    font-size: 14px;
+    font-family: 'proxima-nova', Arial, sans-serif;
+}
+
+.shortcut-box .header-content {margin-top: 20px;}
+
+.header-content a {
+    float: right;
+    position: absolute;
+    right: 0;
+    padding-top: 40px;
+    top: 0;
+    font-size: 14px;
+}
+
+.header-content .btn-header {
+    float: right;
+    position: initial;
+    padding: 5px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    display: inherit;
+}
+
+.header-content a:hover {
+    color: #000;
+}
+
+[class*="title-"] {
+    color: #2a2a2a;
+    font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    display: inline-block;
+}
+
+.header-content p {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.sidebox .sidebox-inner, .sidebox .sidebox-list a{
+	font-family: 'proxima-nova', Roboto, Arial, sans-serif;
+	margin-bottom:;
+}
+
+.sidebox .status-text{
+	font-size: 13px;
+}
+
+.sidebar .well-status-sidebar{background-color: #fbefc4 !important;}
+
+.nav-tabs li a{font-family: 'proxima-nova', Roboto, sans-serif;padding: 7px 15px;}
+
+.tab-content{padding: 10px;}
+
+.filtro-contatos p {
+    margin-bottom: 0px;
+    color: #999;
+}
+
+.filtro-contatos input[type="checkbox"] {
+    float: left !important;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.filtro-contatos .label {
+    padding: 1px 5px;
+    font-size: 13px;
+    font-family: 'proxima-nova', Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.nav-tabs{
+
+}
+
+.nav-tabs a{
+
+}
+
+/**
+* Highchart 
+*/
+.highcharts-menu{border: 0px !important;padding: 5px !important;}
+
+.highcharts-menu .highcharts-menu-item{
+	font-family: 'proxima-nova', Roboto, sans-serif !important;
+	font-size: 13px !important;
+}

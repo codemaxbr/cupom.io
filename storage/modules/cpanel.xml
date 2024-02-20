@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<params>
+    <field>
+        <label>Usuário</label>
+        <name>user</name>
+        <type>text</type>
+        <required>true</required>
+    </field>
+
+    <field>
+        <label>Senha</label>
+        <name>password</name>
+        <type>password</type>
+        <required>true</required>
+    </field>
+
+    <field>
+        <label>Chave de Acesso</label>
+        <name>key_access</name>
+        <type>textarea</type>
+        <required>false</required>
+    </field>
+
+    <field>
+        <label>API Token</label>
+        <name>api_token</name>
+        <type>text</type>
+        <required>false</required>
+    </field>
+</params>
